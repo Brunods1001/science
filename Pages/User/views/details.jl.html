@@ -1,0 +1,22 @@
+<header class="st-header q-pa-sm">
+    <h1 class="st-header__title text-h3">Example using Pages directory<br /></h1>
+</header>
+<div v-if="isready" class="row">
+    <div class="col-3 g-gutter-md">
+        <div class="row">
+            <div class="col col-12">
+                <h2>{{ name }}</h2>
+                <p>{{ age }}</p>
+                <p>{{ country }}</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col col-12">
+                <h6>Change details</h6>
+                <input v-model="name">
+                <input v-model="age">
+                <input v-model="country">
+            </div>
+        </div>
+    </div>
+</div>
