@@ -5,9 +5,10 @@
     <div class="col-3 g-gutter-md">
         <div class="row">
             <div class="col col-12">
-                <h2>{{ name }}</h2>
-                <p>{{ age }}</p>
-                <p>{{ country }}</p>
+                <h2>Name: {{ name }}</h2>
+                <p>Age: {{ age }}</p>
+                <p>Country: {{ country }}</p>
+                <p>Weight: {{ weight }}</p>
             </div>
         </div>
         <div class="row">
@@ -16,6 +17,7 @@
                 <input v-model="name">
                 <input v-model="age">
                 <input v-model="country">
+                <input v-model="weight">
             </div>
         </div>
     </div>

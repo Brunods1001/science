@@ -18,3 +18,7 @@ Page("/", view = "Pages/User/views/details.jl.html",
           context = @__MODULE__)
 
 
+using Science
+include("src/Science.jl")
+using .Science
+using Science.ResourceUsersController
